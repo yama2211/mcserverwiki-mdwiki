@@ -7,6 +7,7 @@ Minecraft公式が出しているマルチツールの場合。
 まず、ダウンロードページに行きます。
 ページに行ったら、「minecraft_server.1.10.2.jar(2016/10/26現在)」をクリックします。
 ![](https://wiki.minesaba.tk/p/img/s_start/1.PNG)
+<br>
 クリックするとダウンロードが始まります。
 ![](https://wiki.minesaba.tk/p/img/s_start/2.PNG)
 <p><code>拡張子が<b>.zip</b>でダウンロードされる場合は拡張子を<b>.jar</b>に変えてください。</code></p>
