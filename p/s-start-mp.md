@@ -77,3 +77,33 @@ pause</code></p>
 このページ作成において以下のサイトを参考にさせて頂きました。
 ・Minecraft Japan Wiki
     ・http://www26.atwiki.jp/minecraft/pages/1433.html
+
+<table>
+<tr>
+<th>ファイル名,ディレクトリ名</th><th>説明</th>
+</tr>
+<tr>
+    <td>logs</td><td>ーバのログを格納するディレクトリ。最新のログはlatest.logとなる。一度サーバを停止したりすると<年-月-日-1(や2等)>.log.gzと圧縮(?)される。 </td>
+</tr>
+<tr>
+    <td>world</td><td>ワールドデータを格納するディレクトリ</td>
+</tr>
+<tr>
+    <td>banned-ips.json</td><td>IPBANをした時に書き込まれる。</td>
+</tr>
+<tr>
+    <td>banned-players.json</td><td>プレイヤーをBANした際に書き込まれる</td>
+</tr>
+<tr>
+    <td>ops.json</td><td>OP権限(サーバの全権限)を与えた際に書き込まれる。※サーバを停止させたりする為、信頼できる人以外に与えないこと </td>
+</tr>
+<tr>
+    <td>server.properties</td><td>サーバの設定ファイル。OP権限の制限(stop,reloadコマンドの制限など)やコマンドブロックの使用の有無やポートの設定などが行える。</td>
+</tr>
+<tr>
+    <td>usercache.json</td><td>プレイヤーデータが保存されている(らしい)</td>
+</tr>
+<tr>
+    <td>whitelist.json</td><td> ホワイトリスト関係のデータが保存される。</td>
+</tr>
+</table>
