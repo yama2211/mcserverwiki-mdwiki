@@ -19,7 +19,7 @@
 [About](about.md)
 
 [サーバの起動]()
-  * # SubMenu Heading 1
+
   * [公式サーバ](p/s-start-mp.md)
 
 <!-- A more complex navigation example: ----------------------------------------
