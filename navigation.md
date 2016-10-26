@@ -19,9 +19,9 @@
 
 [About](about.md)
 
-[サーバの起動]()
+[ページ]()
 
-  * # SubMenu Heading 1
+  * # サーバの起動
   * [公式サーバ](p/s-start-mp.md)
   - - - -
 
