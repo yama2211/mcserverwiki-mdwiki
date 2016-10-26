@@ -1,12 +1,12 @@
 #Serverの起動方法
 
-<span class="label label-warning">このページは現在の画像/文章です。</span>
+<span class="label label-warning">このページは作成現在の画像/文章です。</span>
 
 ##multiplayer server
 Minecraft公式が出しているマルチツールの場合。
 まず、ダウンロードページに行きます。
 ページに行ったら、「minecraft_server.1.10.2.jar(2016/10/26現在)」をクリックします。
-<p><img src="/img/s_start/1.PNG"></p>
+<p><img src="./img/s_start/1.PNG"></p>
 クリックするとダウンロードが始まります。
 <p><img src="/img/s_start/2.PNG"></p>
 <p><code>拡張子が<b>.zip</b>でダウンロードされる場合は拡張子を<b>.jar</b>に変えてください。</code></p>
@@ -16,7 +16,7 @@ Minecraft公式が出しているマルチツールの場合。
 minecraft_server.1.10.2.jarをダブルクリックして起動します。
 <p><span class="label label-danger">この状態では、サーバは起動していないので接続できません。</span></p>
 起動すると、以下のようなディレクトリ/ファイルが生成されます。
-<p><img src="/img/s_start/3.PNG"></p>
+<p><img src="./img/s_start/3.PNG"></p>
 <br>
 eula.txtというテキストファイルを開きます。
 テキストの内容は以下のなります。
@@ -29,13 +29,12 @@ trueにしたら上書き保存します。
 <br>
 では、minecraft_server.1.10.2.jarを再び起動します。
 起動すると、以下のようなものが出てくると思います。
-<p><img src="/img/s_start/4.PNG"></p>
+<p><img src="./img/s_start/4.PNG"></p>
 これは、サーバコンソールと呼ばれるものです。基本的にコンソールと呼ばれます。
 <br>
 起動するとディレクトリにさまざまなファイルやディレクトリが生成されると思います。
-<p><img src="/img/s_start/5.PNG"></p>
-これは全てサーバを起動し運営するに当たり必要なものです。説明は以下のようになります。
-<table class="table table-bordered">
+<p><img src="./img/s_start/5.PNG"></p>
+これは全てサーバを起動し運営するに当たり必要なものです。説明は以下のようになります。<table class="table table-bordered">
 <tr>
 <th>#</th><th></th>
 </tr>
@@ -67,11 +66,11 @@ trueにしたら上書き保存します。
 <p><span class="label label-danger">現在は、json形式のため、編集には技術が必要かもしれません</span></p>
 <br>
 サーバが正常に起動されたかを確認するにはコンソールのログ欄に「For help, type "help" or "?"」があれば正常にサーバは起動しています。
-<p><img src="/img/s_start/6.PNG"></p>
+<p><img src="./img/s_start/6.PNG"></p>
 
 ## batファイルを作成する場合
 一部環境では、サーバコンソールが出ない場合があるようです。
-<p><img src="/img/s_start/4.PNG"></p>
+<p><img src="./img/s_start/4.PNG"></p>
 その際の対処方としてbatファイルを作成することで何とかなるようです。
 
 作成する手順は次のようになります。
