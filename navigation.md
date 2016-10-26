@@ -17,9 +17,9 @@
   -->
 
 [About](about.md)
+
 [サーバの起動]()
   * [公式サーバ](p/s-start-mp.md)
-  * [bukkit/spigot]()
 
 <!-- A more complex navigation example: ----------------------------------------
 
