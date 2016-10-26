@@ -10,6 +10,7 @@
   -- Default theme
   -- (Read: http://dynalon.github.io/mdwiki/#!customizing.md#Theme_chooser)
   -->
+[gimmick:theme](spacelab)
 
 <!--
   -- Navigation
@@ -20,7 +21,9 @@
 
 [サーバの起動]()
 
+  * # SubMenu Heading 1
   * [公式サーバ](p/s-start-mp.md)
+  - - - -
 
 <!-- A more complex navigation example: ----------------------------------------
 
