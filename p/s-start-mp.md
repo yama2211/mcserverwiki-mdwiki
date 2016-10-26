@@ -48,6 +48,11 @@ trueにしたら上書き保存します。
 | usercache.json | プレイヤーデータが保存されている(らしい) |
 | whitelist.json | ホワイトリスト関係のデータが保存される。 |
 <br>
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
 <p><span class="label label-danger">現在は、json形式のため、編集には技術が必要かもしれません</span></p>
 <br>
 サーバが正常に起動されたかを確認するにはコンソールのログ欄に「For help, type "help" or "?"」があれば正常にサーバは起動しています。
