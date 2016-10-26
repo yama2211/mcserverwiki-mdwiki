@@ -6,10 +6,11 @@
 Minecraft公式が出しているマルチツールの場合。
 まず、ダウンロードページに行きます。
 ページに行ったら、「minecraft_server.1.10.2.jar(2016/10/26現在)」をクリックします。<br>
-![](https://wiki.minesaba.tk/p/img/s_start/1.PNG)
+<p><img src="https://wiki.minesaba.tk/p/img/s_start/1.PNG"></p>
 <br>
 クリックするとダウンロードが始まります。<br>
-![](https://wiki.minesaba.tk/p/img/s_start/2.PNG)
+<p><img src="https://wiki.minesaba.tk/p/img/s_start/2.PNG"></p>
+<br>
 <p><code>拡張子が<b>.zip</b>でダウンロードされる場合は拡張子を<b>.jar</b>に変えてください。</code></p>
 ダウンロードしたminecraft_server.1.10.2.jarをデスクトップなどに移動します。
 <p><span class="label label-warning">その際、ディレクトリを作成し、そのディレクトリに入れることをお勧めします。</span></p>
@@ -17,7 +18,7 @@ Minecraft公式が出しているマルチツールの場合。
 minecraft_server.1.10.2.jarをダブルクリックして起動します。
 <p><span class="label label-danger">この状態では、サーバは起動していないので接続できません。</span></p>
 起動すると、以下のようなディレクトリ/ファイルが生成されます。
-![](https://wiki.minesaba.tk/p/img/s_start/3.PNG)
+<p><img src="https://wiki.minesaba.tk/p/img/s_start/3.PNG"></p>
 <br>
 eula.txtというテキストファイルを開きます。
 テキストの内容は以下のなります。
@@ -30,14 +31,14 @@ trueにしたら上書き保存します。
 <br>
 では、minecraft_server.1.10.2.jarを再び起動します。
 起動すると、以下のようなものが出てくると思います。
-![](https://wiki.minesaba.tk/p/img/s_start/4.PNG)
+<p><img src="https://wiki.minesaba.tk/p/img/s_start/4.PNG"></p>
 これは、サーバコンソールと呼ばれるものです。基本的にコンソールと呼ばれます。
 <br>
 起動するとディレクトリにさまざまなファイルやディレクトリが生成されると思います。
-![](https://wiki.minesaba.tk/p/img/s_start/5.PNG)
+<p><img src="https://wiki.minesaba.tk/p/img/s_start/5.PNG"></p>
 これは全てサーバを起動し運営するに当たり必要なものです。説明は以下のようになります。
-| # | 説明 |
-|  ----- | :-------------: |
+| ファイル名 | 説明 |
+| --- | --- |
 | logs | サーバのログを格納するディレクトリ。最新のログはlatest.logとなる。一度サーバを停止したりすると<年-月-日-1(や2等)>.log.gzと圧縮(?)される。 |
 | world | ワールドデータを格納するディレクトリ |
 | banned-ips.json | IPBANをした時に書き込まれる。 |
@@ -50,11 +51,11 @@ trueにしたら上書き保存します。
 <p><span class="label label-danger">現在は、json形式のため、編集には技術が必要かもしれません</span></p>
 <br>
 サーバが正常に起動されたかを確認するにはコンソールのログ欄に「For help, type "help" or "?"」があれば正常にサーバは起動しています。
-![](https://wiki.minesaba.tk/p/img/s_start/6.PNG)
+<p><img src="https://wiki.minesaba.tk/p/img/s_start/6.PNG"></p>
 <br>
 ## batファイルを作成する場合
 一部環境では、サーバコンソールが出ない場合があるようです。
-![](https://wiki.minesaba.tk/p/img/s_start/4.PNG)
+<p><img src="https://wiki.minesaba.tk/p/img/s_start/4.PNG"></p>
 その際の対処方としてbatファイルを作成することで何とかなるようです。
 <br>
 作成する手順は次のようになります。
