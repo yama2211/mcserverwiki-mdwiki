@@ -37,17 +37,8 @@ trueにしたら上書き保存します。
 起動するとディレクトリにさまざまなファイルやディレクトリが生成されると思います。
 <p><img src="https://wiki.minesaba.tk/p/img/s_start/5.PNG"></p>
 これは全てサーバを起動し運営するに当たり必要なものです。説明は以下のようになります。
-| ファイル/ディレクトリ名 | 説明 | 追加説明 |
-| ----- | :-------------: | -----:|
-| logs | サーバのログを格納するディレクトリ。最新のログはlatest.logとなる。一度サーバを停止したりすると<年-月-日-1(や2等)>.log.gzと圧縮(?)される。 | エラーが出たときに表示役立ちます |
-| world | ワールドデータを格納するディレクトリ | 現在は、json形式のため、編集には技術が必要かもしれません |
-| banned-ips.json | IPBANをした時に書き込まれる。 | 現在は、json形式のため、編集には技術が必要かもしれません |
-| banned-players.json | プレイヤーをBANした際に書き込まれる | 現在は、json形式のため、編集には技術が必要かもしれません |
-| ops.json | OP権限(サーバの全権限)を与えた際に書き込まれる。※サーバを停止させたりする為、信頼できる人以外に与えないこと | 現在は、json形式のため、編集には技術が必要かもしれません |
-| server.properties | サーバの設定ファイル。OP権限の制限(stop,reloadコマンドの制限など)やコマンドブロックの使用の有無やポートの設定などが行える。 | JapanWiki等をよく見て編集してください。 |
-| usercache.json | プレイヤーデータが保存されている(らしい) | 現在は、json形式のため、編集には技術が必要かもしれません |
-| whitelist.json | ホワイトリスト関係のデータが保存される。 | 現在は、json形式のため、編集には技術が必要かもしれません |
-<br>
+<p><img src="https://wiki.minesaba.tk/p/img/s_start/7.PNG"></p>
+<br><p><span class="label label-danger">jsonファイルは編集に技術を要する可能性があります。</span></p>
 サーバが正常に起動されたかを確認するにはコンソールのログ欄に「For help, type "help" or "?"」があれば正常にサーバは起動しています。
 <p><img src="https://wiki.minesaba.tk/p/img/s_start/6.PNG"></p>
 <br>
@@ -77,33 +68,3 @@ pause</code></p>
 このページ作成において以下のサイトを参考にさせて頂きました。
 ・Minecraft Japan Wiki
     ・http://www26.atwiki.jp/minecraft/pages/1433.html
-
-<table>
-<tr>
-<th>ファイル名,ディレクトリ名</th><th>説明</th>
-</tr>
-<tr>
-    <td>logs</td><td>ーバのログを格納するディレクトリ。最新のログはlatest.logとなる。一度サーバを停止したりすると<年-月-日-1(や2等)>.log.gzと圧縮(?)される。 </td>
-</tr>
-<tr>
-    <td>world</td><td>ワールドデータを格納するディレクトリ</td>
-</tr>
-<tr>
-    <td>banned-ips.json</td><td>IPBANをした時に書き込まれる。</td>
-</tr>
-<tr>
-    <td>banned-players.json</td><td>プレイヤーをBANした際に書き込まれる</td>
-</tr>
-<tr>
-    <td>ops.json</td><td>OP権限(サーバの全権限)を与えた際に書き込まれる。※サーバを停止させたりする為、信頼できる人以外に与えないこと </td>
-</tr>
-<tr>
-    <td>server.properties</td><td>サーバの設定ファイル。OP権限の制限(stop,reloadコマンドの制限など)やコマンドブロックの使用の有無やポートの設定などが行える。</td>
-</tr>
-<tr>
-    <td>usercache.json</td><td>プレイヤーデータが保存されている(らしい)</td>
-</tr>
-<tr>
-    <td>whitelist.json</td><td> ホワイトリスト関係のデータが保存される。</td>
-</tr>
-</table>
